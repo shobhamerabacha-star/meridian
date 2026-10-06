@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "vitest run --passWithNoTests",
     "coverage": "vitest run --coverage --passWithNoTests",
     "typecheck": "tsc --noEmit"
@@ -17,8 +17,8 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "5.0.2",
-    "vitest": "^5.0.2"
+    "@vitest/coverage-v8": "5.0.3",
+    "vitest": "^5.0.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
