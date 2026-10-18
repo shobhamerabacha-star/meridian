@@ -27,7 +27,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "test": "vitest run --coverage",
     "test:coverage": "vitest run --coverage --reporter=html --reporter=text",
     "coverage": "vitest run --coverage --passWithNoTests",
